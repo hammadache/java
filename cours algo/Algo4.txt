@@ -4,7 +4,7 @@ présentée comme suit (cas où l'utilisateur entre le nombre 7) :
 variable nombre : number;
 variable i : number = 1;
 Ecrire "Entrez un nombre de votre choix : ";
-Lire et stocker nombre; 
+Lire et stocker dans nombre; 
 Ecrire "Table de " + nombre + ":";
 Pour( i <= 10; i++ )
 	Ecrire nombre + " x " + i + " = " + nombre*i;

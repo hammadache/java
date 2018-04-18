@@ -1,0 +1,11 @@
+Ecrire un algorithme qui demande un nombre de départ, et qui ensuite écrit la table de multiplication de ce nombre, 
+présentée comme suit (cas où l'utilisateur entre le nombre 7) :
+
+variable nombre : number;
+variable i : number = 1;
+Ecrire "Entrez un nombre de votre choix : ";
+Lire et stocker nombre; 
+Ecrire "Table de " + nombre + ":";
+Pour( i <= 10; i++ )
+	Ecrire nombre + " x " + i + " = " + nombre*i;
+Fin Pour

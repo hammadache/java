@@ -1,0 +1,9 @@
+Variable classe : array ["amina","jean","jerome","lila","Marcello","nam","razan","amer","souhaeil","regis"];
+
+Si (classe.length > 10) Alors
+	Ecrire "c’est une grande classe.";
+Sinon Si (classe.length > 5) Alors
+	Ecrire "c’est une classe moyenne.";
+Sinon 
+	Ecrire "c’est une classe moyenne.";
+Fin si

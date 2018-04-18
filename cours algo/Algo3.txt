@@ -1,0 +1,10 @@
+Ecrire un algorithme qui demande un nombre de départ, et qui ensuite affiche les dix nombres suivants. 
+Par exemple, si l'utilisateur entre le nombre 17, le programme affichera les nombres de 18 à 27
+
+variable nombre : number;
+Ecrire "Entrez un nombre de votre choix : ";
+Lire et stocker nombre; 
+
+Pour( i = 0; i < 10; i++ )
+	Afficher nombre++;
+Fin Pour
